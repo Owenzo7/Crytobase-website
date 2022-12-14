@@ -13,24 +13,24 @@ const CoinSearch = ({ coins }) => {
         <form>
           <input
             onChange={(e) => setSearchText(e.target.value)}
-            className=""
+            className="w-full bg-primary border border-input px-4 py-2 rounded-2xl shadow-xl"
             type="text"
             placeholder="Search a coin"
           />
         </form>
       </div>
 
-      <table>
+      <table className=" w-full border-collapse text-center ">
         <thead>
-          <tr>
+          <tr className="border-b">
             <th></th>
-            <th>#</th>
-            <th>Coin</th>
+            <th className="px-4 ">#</th>
+            <th className="text-left">Coin</th>
             <th></th>
             <th>Price</th>
             <th>24h</th>
-            <th>24h Volume</th>
-            <th>Mkt</th>
+            <th className="hidden md:table-cell ">24h Volume</th>
+            <th className="hidden sm:table-cell">Mkt</th>
             <th>Last 7 Days</th>
           </tr>
         </thead>
