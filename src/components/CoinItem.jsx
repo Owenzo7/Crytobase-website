@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineStar } from "react-icons/ai";
 import { Sparklines, SparklinesLine } from "react-sparklines";
 
-const CoinItem = ({coin}) => {
+const CoinItem = ({ coin }) => {
   return (
     <tr>
       <td>
