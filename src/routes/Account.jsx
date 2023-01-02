@@ -29,7 +29,3 @@ export default Account
 
 
 
-// Done with the account section.
-
-
-// Yes!clear
