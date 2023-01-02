@@ -26,3 +26,7 @@ const Account = () => {
 }
 
 export default Account
+
+
+
+// Done with the account section
